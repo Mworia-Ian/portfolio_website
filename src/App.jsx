@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./components/NavBar";
-import AboutMe from "./components/AboutMe";
+import Profile from "./components/Profile";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       </div>
       <div className="container mx-auto px-8">
         <NavBar />
-        <AboutMe />
+        <Profile />
       </div>
     </div>
   );
