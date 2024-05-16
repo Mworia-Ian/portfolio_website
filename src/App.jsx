@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import Profile from "./components/Profile";
+import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="container mx-auto px-8">
         <NavBar />
         <Profile />
+        <AboutMe />
       </div>
     </div>
   );
