@@ -3,6 +3,8 @@ import NavBar from "./components/NavBar";
 import Profile from "./components/Profile";
 import AboutMe from "./components/AboutMe";
 import Technologies from "./components/Technologies";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Profile />
         <AboutMe />
         <Technologies />
+        <Experience />
+        <Projects />
       </div>
     </div>
   );
