@@ -27,7 +27,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional recipe website with features like search, add to favorites and remove from favorites",
-    technologies: ["HTML", "CSS", "React", "Redux"],
+    technologies: ["HTML", "CSS", "React", "Redux", "TailwindCss"],
   },
   {
     title: "Portfolio Website",
