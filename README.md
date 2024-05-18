@@ -1,8 +1,24 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Developed by: *Ian M. Mworia*
 
-Currently, two official plugins are available:
+## Web Link:
+https://ianmworia.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+This is a portfolio website showcasing the works of Ian M. Mworia. With links to various of his professional presence online. 
+
+## Technologies
+React.js
+Tailwind Css
+Netlify
+
+## contact details
+github: Mworia-Ian <br>
+mattermost: @ian.mworia <br>
+email : ianmworia156@gmail.com 
+email : ian.mworia@student.moringaschool.com
+
+### License
+The content of this site is licensed under the Logic Flow license
+Copyright (c) 2024.
