@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import haki from "../assets/projects/haki.png";
+import recipes from "../assets/projects/recipes.jpg"
 
 export const ABOUT_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Python, MySQL & PostgreSQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -23,18 +24,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Recipe Website",
-    image: project1,
-    description:
-      "A fully functional recipe website with features like search, add to favorites and remove from favorites",
-    technologies: ["React", "Redux", "TailwindCss"],
-  },
-  {
     title: "Haki",
-    image: project3,
+    image: haki,
     description:
       "Haki aims to connect everyday Kenyans with reliable legal representation. Our platform helps you find customized legal services that match your specific needs.",
     technologies: ["React", "Flask", "Postgres", "Firebase"],
+    link: ["https://main--hakiproject.netlify.app/"]
+  },
+  {
+    title: "Recipe Website",
+    image: recipes,
+    description:
+      "A fully functional recipe website with features like search, add to favorites and remove from favorites",
+    technologies: ["React", "Redux", "TailwindCss"],
+    link: ["https://thunderkitchen.netlify.app/"]
   }
 ];
 
