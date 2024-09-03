@@ -27,14 +27,14 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional recipe website with features like search, add to favorites and remove from favorites",
-    technologies: ["HTML", "CSS", "React", "Redux", "TailwindCss"],
+    technologies: ["React", "Redux", "TailwindCss"],
   },
   {
-    title: "Portfolio Website",
+    title: "Haki",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "TailwindCss"],
+      "Haki aims to connect everyday Kenyans with reliable legal representation. Our platform helps you find customized legal services that match your specific needs.",
+    technologies: ["React", "Flask", "Postgres", "Firebase"],
   }
 ];
 
