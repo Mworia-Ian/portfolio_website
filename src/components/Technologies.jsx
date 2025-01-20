@@ -3,6 +3,7 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaPython } from "react-icons/fa6";
 import { BiLogoFlask } from "react-icons/bi";
+import { SiNextdotjs } from "react-icons/si";
 import { animate, motion } from "framer-motion";
 
 const iconAnime = (duration) => ({
@@ -74,6 +75,14 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <BiLogoFlask className="text-7xl text-green-500" />
+        </motion.div>
+        <motion.div
+          variants={iconAnime(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiNextdotjs className="text-7xl text-white"  />
         </motion.div>
       </motion.div>
     </div>

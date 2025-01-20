@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import haki from "../assets/projects/haki.png";
 import recipes from "../assets/projects/recipes.jpg"
+import bank from "../assets/projects/banking.jpg"
 
 export const ABOUT_CONTENT = `I'm seeking an entry-level software engineering role in a dynamic tech environment where I can leverage my skills in full-stack development to contribute to innovative and impactful projects.`;
 
@@ -21,21 +22,22 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Web Banking App",
+    image: bank,
+    description:
+      "Built with Next.js, Horizon is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.",
+    technologies: ["Next.js", "TypeScript", "TailwindCss", "Plaid", "Dwolla", "Appwrite", "ShadCN" ],
+    link: ["https://github.com/Mworia-Ian/web-banking-app"]
+  },
+  {
     title: "Haki",
     image: haki,
     description:
       "Haki aims to connect everyday Kenyans with reliable legal representation. Our platform helps you find customized legal services that match your specific needs.",
     technologies: ["React", "Flask", "Postgres", "Firebase"],
     link: ["https://main--hakiproject.netlify.app/"]
-  },
-  {
-    title: "Recipe Website",
-    image: recipes,
-    description:
-      "A fully functional recipe website with features like search, add to favorites and remove from favorites",
-    technologies: ["React", "Redux", "TailwindCss"],
-    link: ["https://thunderkitchen.netlify.app/"]
   }
+  
 ];
 
 export const CONTACT = {
