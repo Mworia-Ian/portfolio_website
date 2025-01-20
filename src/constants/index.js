@@ -2,15 +2,12 @@ import project1 from "../assets/projects/project-1.jpg";
 import haki from "../assets/projects/haki.png";
 import recipes from "../assets/projects/recipes.jpg"
 
-export const ABOUT_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Python, MySQL & PostgreSQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const ABOUT_CONTENT = `I'm seeking an entry-level software engineering role in a dynamic tech environment where I can leverage my skills in full-stack development to contribute to innovative and impactful projects.`;
 
-export const ABOUT_TEXT = `I'm a passionate coder with a love for creating innovative solutions through technology. I'm captivated by the endless possibilities it offers. I specialize in software engineering, and I'm always eager to learn and explore new technologies.
-
-When I'm not coding, you'll find me on the football field or cricket pitch, enjoying the thrill and camaraderie of team sports. I'm an avid gamer, always on the lookout for the next great game to immerse myself in.
-
-Beyond my personal interests, I believe in giving back to the community. I actively participate in charity work, striving to make a positive impact wherever I can. One cause that is particularly close to my heart is rhino conservation. I am dedicated to supporting efforts to protect these magnificent creatures and ensure their survival for future generations.
-
-Thanks for visiting my portfolio! Feel free to explore my projects and get in touch if you'd like to collaborate.`;
+export const ABOUT_TEXT = `I'm a Junior Software Engineer with hands-on experience developing scalable full-stack web applications 
+using Javascript and Python. I excel at creating responsive, user-friendly solutions while maintaining a strong focus on 
+writing clean, maintainable code. Through intensive bootcamp projects and real-world implementations, I've become well-versed in 
+Scrum methodology and collaborative development. `;
 
 export const EXPERIENCES = [
   {
