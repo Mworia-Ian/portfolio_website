@@ -1,9 +1,13 @@
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
+import MyApp from "./Cal";
+
+
 
 const Contact = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
+      <MyApp />
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
