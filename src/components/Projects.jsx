@@ -13,7 +13,12 @@ const Projects = () => {
         Projects
       </motion.h2>
       {PROJECTS.map((project, index) => (
-        <a key={index} href={project.link[0]} target="_blank" rel="noopener noreferrer">
+        <a
+          key={index}
+          href={project.link[0]}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
