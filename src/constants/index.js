@@ -1,15 +1,12 @@
 // import project1 from "../assets/projects/project-1.jpg";
-import haki from "../assets/projects/haki.png";
+// import haki from "../assets/projects/haki.png";
 // import recipes from "../assets/projects/recipes.jpg";
 import bank from "../assets/projects/banking.jpg";
 import ecommerce from "../assets/projects/secommerce.png";
 
-export const ABOUT_CONTENT = `I'm seeking an entry-level software engineering role in a dynamic tech environment where I can leverage my skills in full-stack development to contribute to innovative and impactful projects.`;
+export const ABOUT_CONTENT = `When I'm not writing code as a Kenya-based software engineer, you'll find me kicking balls, swinging bats, or conquering mountains—because apparently juggling multiple sports wasn't challenging enough, I had to add semicolons to the mix too.`;
 
-export const ABOUT_TEXT = `I'm a Junior Software Engineer with hands-on experience developing scalable full-stack web applications 
-using Javascript and Python. I excel at creating responsive, user-friendly solutions while maintaining a strong focus on 
-writing clean, maintainable code. Through intensive bootcamp projects and real-world implementations, I've become well-versed in 
-Scrum methodology and collaborative development. `;
+export const ABOUT_TEXT = `Hi there, `;
 
 export const EXPERIENCES = [
   {
@@ -35,7 +32,7 @@ export const PROJECTS = [
       "Uploadthing",
       "ShadCN",
     ],
-    link: ["https://github.com/Mworia-Ian/spear-ecommerce"],
+    link: ["https://spearafrica.vercel.app/"],
   },
   {
     title: "Web Banking App",
@@ -53,18 +50,17 @@ export const PROJECTS = [
     ],
     link: ["https://github.com/Mworia-Ian/web-banking-app"],
   },
-  {
-    title: "Haki",
-    image: haki,
-    description:
-      "Haki aims to connect everyday Kenyans with reliable legal representation. Our platform helps you find customized legal services that match your specific needs.",
-    technologies: ["React", "Flask", "Postgres", "Firebase"],
-    link: ["https://main--hakiproject.netlify.app/"],
-  },
+  // {
+  //   title: "Haki",
+  //   image: haki,
+  //   description:
+  //     "Haki aims to connect everyday Kenyans with reliable legal representation. Our platform helps you find customized legal services that match your specific needs.",
+  //   technologies: ["React", "Flask", "Postgres", "Firebase"],
+  //   link: ["https://main--hakiproject.netlify.app/"],
+  // },
 ];
 
 export const CONTACT = {
-  address: "Ngong Lane Plaza, Ngong RD",
   phoneNo: "+254 705 569 827",
   email: "ianmworia156@gmail.com",
 };
