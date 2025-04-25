@@ -3,6 +3,7 @@
 // import recipes from "../assets/projects/recipes.jpg";
 import bank from "../assets/projects/banking.jpg";
 import ecommerce from "../assets/projects/secommerce.png";
+import sub from "../assets/projects/subscription.jpg";
 
 export const ABOUT_CONTENT = `When I'm not writing code as a Kenya-based software engineer, you'll find me kicking balls, swinging bats, or conquering mountains—because apparently juggling multiple sports wasn't challenging enough, I had to add semicolons to the mix too.`;
 
@@ -33,6 +34,14 @@ export const PROJECTS = [
       "ShadCN",
     ],
     link: ["https://spearafrica.vercel.app/"],
+  },
+  {
+    title: "Subscription Tracker",
+    image: sub,
+    description:
+      "This is a subscription tracking API built using NodeJs. Complete with email reminder and date tracking you willbe abletokeep track of all of the users subscriptions regardless of the status.",
+    technologies: ["Node.js", "Express", "MongoDB"],
+    link: ["https://github.com/Mworia-Ian/subscription-tracker"],
   },
   {
     title: "Web Banking App",
