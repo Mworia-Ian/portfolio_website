@@ -2,9 +2,8 @@ import { RiReactjsLine } from "react-icons/ri";
 import { RiJavascriptFill } from "react-icons/ri";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaPython } from "react-icons/fa6";
-import { BiLogoFlask } from "react-icons/bi";
-import { SiNextdotjs } from "react-icons/si";
-import { animate, motion } from "framer-motion";
+import { SiOpenai, SiNextdotjs } from "react-icons/si";
+import { motion } from "framer-motion";
 
 const iconAnime = (duration) => ({
   initial: { y: -10 },
@@ -69,12 +68,12 @@ const Technologies = () => {
           <BiLogoPostgresql className="text-7xl text-blue-500" />
         </motion.div>
         <motion.div
-          variants={iconAnime(4)}
+          variants={iconAnime(2.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <BiLogoFlask className="text-7xl text-green-500" />
+          <SiOpenai className="text-7xl text-[#10a37f]" />
         </motion.div>
         <motion.div
           variants={iconAnime(4)}
@@ -82,7 +81,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiNextdotjs className="text-7xl text-white"  />
+          <SiNextdotjs className="text-7xl text-white" />
         </motion.div>
       </motion.div>
     </div>

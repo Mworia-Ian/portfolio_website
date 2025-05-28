@@ -1,5 +1,5 @@
 import codingImage from "../assets/971.jpg";
-import { ABOUT_TEXT } from "../constants";
+import { ABOUT_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 
 const AboutMe = () => {
@@ -31,7 +31,13 @@ const AboutMe = () => {
             transition={{ duration: 1.5 }}
             className="flex justify-center lg:justify-start"
           >
-            <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+            <div className="my-2 max-w-xl py-6 space-y-4">
+              {ABOUT_CONTENT.map((paragraph, index) => (
+                <p key={index} className="text-justify">
+                  {paragraph}
+                </p>
+              ))}
+            </div>
           </motion.div>
         </div>
       </div>

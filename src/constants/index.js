@@ -1,21 +1,25 @@
-// import project1 from "../assets/projects/project-1.jpg";
-// import haki from "../assets/projects/haki.png";
-// import recipes from "../assets/projects/recipes.jpg";
-import bank from "../assets/projects/banking.jpg";
 import ecommerce from "../assets/projects/secommerce.png";
 import sub from "../assets/projects/subscription.jpg";
 
-export const ABOUT_CONTENT = `When I'm not writing code as a Kenya-based software engineer, you'll find me kicking balls, swinging bats, or conquering mountains—because apparently juggling multiple sports wasn't challenging enough, I had to add semicolons to the mix too.`;
+export const ABOUT_CONTENT = `I am a Nairobi-based software engineer with a passion for building scalable and user-friendly applications. I have experience in full-stack development using Langchain, React.js and Next.js I am always looking for new challenges to take on.  Including the website that you areon right now, I have built various projects to help bring business around Nairobi online. I've also built Chatbots and MCP servers for businesses to help them supercharge their business with AI.`;
 
 export const ABOUT_TEXT = `Hi there, `;
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
-    role: "Full Stack Developer",
-    company: "Moringa School",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Flask. Implemented RESTful APIs and integrated with Postgres databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Python", "Flask", "Postgres"],
+    year: "2025-Present",
+    role: "AI Researcher",
+    company: "SokoHela Limited",
+    description: `I am currently working as an AI researcher at SokoHela Limited where I am working on developing AI models for various applications.`,
+    technologies: [
+      "Langchain",
+      "Python",
+      "Postgres",
+      "Next.js",
+      "Ollama",
+      "OpenAI",
+      "HuggingFace",
+    ],
   },
 ];
 
@@ -43,30 +47,6 @@ export const PROJECTS = [
     technologies: ["Node.js", "Express", "MongoDB"],
     link: ["https://github.com/Mworia-Ian/subscription-tracker"],
   },
-  {
-    title: "Web Banking App",
-    image: bank,
-    description:
-      "Built with Next.js, Horizon is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.",
-    technologies: [
-      "Next.js",
-      "TypeScript",
-      "TailwindCss",
-      "Plaid",
-      "Dwolla",
-      "Appwrite",
-      "ShadCN",
-    ],
-    link: ["https://github.com/Mworia-Ian/web-banking-app"],
-  },
-  // {
-  //   title: "Haki",
-  //   image: haki,
-  //   description:
-  //     "Haki aims to connect everyday Kenyans with reliable legal representation. Our platform helps you find customized legal services that match your specific needs.",
-  //   technologies: ["React", "Flask", "Postgres", "Firebase"],
-  //   link: ["https://main--hakiproject.netlify.app/"],
-  // },
 ];
 
 export const CONTACT = {

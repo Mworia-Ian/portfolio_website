@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ianmworia.dev/sitemap.xml
