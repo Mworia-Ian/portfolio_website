@@ -1,6 +1,6 @@
 import ecommerce from "../assets/projects/secommerce.png";
 import sub from "../assets/projects/subscription.jpg";
-
+import langgraph from "../assets/projects/langraphagent.jpg";
 export const ABOUT_CONTENT = `I am a Nairobi-based software engineer with a passion for building scalable and user-friendly applications. I have experience in full-stack development using Langchain, React.js and Next.js I am always looking for new challenges to take on.  Including the website that you areon right now, I have built various projects to help bring business around Nairobi online. I've also built Chatbots and MCP servers for businesses to help them supercharge their business with AI.`;
 
 export const ABOUT_TEXT = `Hi there, `;
@@ -24,6 +24,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "LangGraph Document Analysis Agent",
+    image: langgraph,
+    description:
+      "I developed a sophisticated document analysis system that brings AI-powered intelligence to document processing. This project showcases my expertise in building production-ready AI applications with a focus on scalability and user experience",
+    technologies: ["Python", "LangGraph", "Flask", "GCP", "DeepSeek"],
+    link: ["https://github.com/Mworia-Ian/langgraph-agent"],
+  },
   {
     title: "Spear Africa Ecommerce",
     image: ecommerce,
